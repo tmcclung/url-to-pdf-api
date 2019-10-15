@@ -1,5 +1,5 @@
 ARG CHROMIUM_VERSION=63.0.3205.0
-FROM microbox/chromium-headless:63.0.3205.0
+FROM microbox/chromium-headless
 ARG CHROMIUM_VERSION=63.0.3205.0
 ARG NODE_VERSION=8.9.0
 MAINTAINER Ling <x@e2.to>
