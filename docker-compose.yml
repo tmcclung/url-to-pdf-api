@@ -1,7 +1,7 @@
 version: '3'
 services:
   url-to-pdf-api:
-    image: url-to-pdf-api:latest
+    image: docker.giffin.org/url-to-pdf-api:latest
     ports:
       - "9000:9000"
     environment:
