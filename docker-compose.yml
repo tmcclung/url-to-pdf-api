@@ -1,0 +1,15 @@
+version: '3'
+services:
+  url-to-pdf-api:
+    image: microbox/node-url-to-pdf-api:latest
+    command:
+      - npm
+      - start
+    ports:
+      - "9000:9000"
+    environment:
+      - STUFF=1
+      - NODE_ENV=development
+      - PORT=9000
+      - ALLOW_HTTP=true
+      - DEBUG_MODE=false
