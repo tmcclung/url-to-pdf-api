@@ -5,6 +5,7 @@ ARG NODE_VERSION=8.9.0
 MAINTAINER Ling <x@e2.to>
 
 RUN echo ${NODE_VERSION}
+RUN echo "I see you david 1" > iseeyou.txt
 
 RUN apt-get update -y && apt-get install -yq fontconfig fonts-dejavu nodejs && rm -rf /var/lib/apt/lists/*
 RUN which node
