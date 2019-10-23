@@ -5,8 +5,6 @@ ENV NODE_ENV production
 ENV PORT 9000
 EXPOSE 9000
 
-RUN poop
-
 RUN apt-get update \
     && apt-get install -yq \
         gconf-service libasound2 libatk1.0-0 libc6 \
